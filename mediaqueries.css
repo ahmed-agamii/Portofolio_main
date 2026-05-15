@@ -13,6 +13,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  #profile {
+    height: 65vh;
+    margin-bottom: 6rem;
+  }
   #desktop-nav {
     display: none;
   }
@@ -53,7 +57,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 55vh;
     margin-bottom: 0;
   }
   article {

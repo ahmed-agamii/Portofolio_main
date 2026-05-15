@@ -434,3 +434,47 @@ footer {
 footer p {
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section__pic-container,
+  .about-details-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-container {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .about-pic {
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .text-container {
+    padding: 0 1rem;
+  }
+  .about-containers {
+    margin-top: 0;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #profile {
+        height: 60vh;
+        margin-bottom: 0;
+    }
+}
