@@ -7,7 +7,7 @@ function toggleMenu() {
 
 
 // === Experience since Dec 2022, always up-to-date ===
-const EXPERIENCE_START_ISO = "2022-12-01"; // change if needed
+const EXPERIENCE_START_ISO = "2023-12-01"; // change if needed
 const EXP_NODE_ID = "experience-years";
 
 function calculateExperienceLabel(startISO) {
